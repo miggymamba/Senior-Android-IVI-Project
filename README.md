@@ -1,5 +1,3 @@
-```
-
 # **Senior Android IVI Project: NexusStream**
 
 ## **🎯 Project Goal**
