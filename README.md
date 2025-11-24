@@ -52,11 +52,12 @@ This project is an implementation of a modern In-Vehicle Infotainment (IVI) dash
 - **Concurrency:** Kotlin Coroutines & Flow
 - **Build:** Gradle Kotlin DSL (KTS) with Version Catalogs
 
-## **✅ Progress Checkpoint (P1 Complete)**
+## **✅ Progress Checkpoint (P2 Complete)**
 
 
-| **Component**        | **Status**      | **Notes**                                                                                     |
-| -------------------- | --------------- | --------------------------------------------------------------------------------------------- |
-| **Gradle Setup**     | COMPLETE        | Clean, warning-free build using KTS, Version Catalogs, Hilt, and KSP (Kotlin 2.0+ compliant). |
-| **Hilt Application** | COMPLETE        | Application class created and Hilt setup finalized.                                           |
-| **Architecture**     | FOLDERS CREATED | Tiered Directory Architecture (TDA) folders for Domain, Data, and Presentation are in place.  |
+| **Component**         | **Status**      | **Notes**                                                                                                                                              |
+| --------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Gradle Setup**      | COMPLETE        | Clean, warning-free build using KTS, Version Catalogs, Hilt, and KSP (Kotlin 2.0+ compliant).                                                          |
+| **Hilt Application**  | COMPLETE        | Application class created and Hilt setup finalized.                                                                                                    |
+| **Architecture**      | FOLDERS CREATED | Tiered Directory Architecture (TDA) folders for Domain, Data, and Presentation are in place.                                                           |
+| **Domain Layer (P2)** | COMPLETE        | All core contracts and models are finalized:`VehicleState`, `PilotAssistStatus`, `VehicleRepository` (Interface), and **`ObserveVehicleStateUseCase`** |
